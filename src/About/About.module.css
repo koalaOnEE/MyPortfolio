@@ -139,10 +139,10 @@
     }
   }
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 485px) {
   .skillsGrid {
    
-   gap:5px;
+ flex-direction: column;
     
   }
 }
