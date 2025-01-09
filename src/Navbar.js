@@ -45,7 +45,12 @@ export default function Navbar() {
       <a href="#Projects" onClick={() => setIsMenuOpen(false)}>Projects</a>
     </li>
     <li>
-    <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer">Resume
+    <a
+  href="https://koalaOnEE.github.io/MyPortfolio/Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Resume
 </a>
 
     </li>
