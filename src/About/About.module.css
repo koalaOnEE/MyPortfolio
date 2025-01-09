@@ -125,8 +125,8 @@
     }
   
     .skillsGrid {
-      grid-template-columns: repeat(auto-fit, minmax(70px, 1fr)); 
-      
+      grid-template-columns: repeat(auto-fit, minmax(70px, 01fr)); 
+    
       display: flex;
       gap: 10px; 
       width: 100%; 
@@ -139,3 +139,10 @@
     }
   }
   
+  @media screen and (max-width: 400px) {
+  .skillsGrid {
+   
+   gap:5px;
+    
+  }
+}
