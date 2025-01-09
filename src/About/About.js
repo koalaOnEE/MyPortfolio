@@ -41,7 +41,7 @@ export const About = () => {
             <span>SQL</span>
             <span>React</span>
             <span>Linux</span>
-            <span>Unix</span>
+        
             <span>Git</span>
             <span>RestAPI</span>
           </div>

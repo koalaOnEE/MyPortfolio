@@ -2,8 +2,7 @@ import React from 'react'
 import Portrait from './Portrait.png';
 import styles from './Hero.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 export const Hero = () => {
     return (
       <section className={styles.container} id="home">
