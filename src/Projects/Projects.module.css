@@ -96,9 +96,16 @@
   
 
   @media screen and (max-width: 830px) {
+    .projectCard {
+      min-height: 330px; /* Reduce height for smaller screens */
+      max-height: 350px; /* Prevent oversized cards */
+    }
+  
+    .projectCard img {
+      max-height: 200px; /* Adjust image height */
+    }
+  
     .projectsGrid {
-       
-        flex-direction: column;
-      }
-
+      grid-template-columns: 1fr; /* Stack cards in one column */
+    }
   }
