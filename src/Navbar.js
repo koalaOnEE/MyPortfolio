@@ -45,7 +45,9 @@ export default function Navbar() {
       <a href="#Projects" onClick={() => setIsMenuOpen(false)}>Projects</a>
     </li>
     <li>
-      <a href="/Resume.pdf" target = "_blank" rel="noopener noreferrer" > Resume</a>
+    <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer">Resume
+</a>
+
     </li>
     <li>
       <a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a>
