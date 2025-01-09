@@ -1,0 +1,133 @@
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; 
+    padding: 50px;
+    color: white;
+  }
+  
+  
+  .headingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .aboutHeading {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(248, 248, 248); 
+    margin: 0;
+  }
+  
+  .period {
+    color: #43a6be; 
+  }
+  
+  .subheading {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(182, 171, 171);
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+ 
+  .aboutContentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+
+  .aboutContent {
+    flex: 2;
+    max-width: 500px; 
+    color: rgb(182, 171, 171);
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    line-height: 1.8;
+    margin-left: 0; 
+  }
+  
+  .aboutContent p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Lato';
+  }
+  
+  
+  .skills {
+    flex: 1;
+    max-width: 400px; 
+    color: rgb(248, 248, 248);
+    font-family: 'Lato';
+    text-align: left; 
+  }
+  .Icon{
+    color:rgb(165, 28, 165);margin-right: 8px;font-size: 1.3rem;
+  }
+
+  .skills h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+ 
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 15px; 
+  }
+  
+  .skillsGrid span {
+    background: #b4b0b08c;
+    color: rgb(248, 248, 248);
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .skillsGrid span:hover {
+    transform: scale(1.1);
+    background-color: rgb(32, 117, 167);
+  }
+  
+
+  @media screen and (max-width: 830px) {
+    .aboutContentWrapper {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .aboutContent {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .skills {
+      max-width: 100%;
+      text-align: center;
+      gap: 10px;
+      
+    }
+  
+    .skillsGrid {
+    display: table-row;
+    
+   
+    }
+  }
+  

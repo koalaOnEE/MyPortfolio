@@ -1,0 +1,155 @@
+.container {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    z-index: 1;
+   
+    padding: 120px; /* Keep this for spacing */
+  margin-left: 310px; 
+  margin-top:20px;
+}
+#home {
+    scroll-margin-top: 170px; /* Match the padding of your Hero section */
+  }
+  
+.content {
+
+    display: flex;
+align-items: flex-start;
+    flex-direction: column;
+    color: rgb(182, 171, 171);
+    z-index:1;
+    font-family: "Lato";
+}
+
+.title{
+
+    font-size:65px;
+    margin-top:20px;
+    margin-bottom: 8px;
+    font-family: "Lato";
+    background: linear-gradient(90deg,rgba(225,255,255,1)70%, rgba(255,255,255,0)120%);
+
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.description{
+
+    font-size:20px;
+    font-family:"Lato";
+    margin-bottom: 40px;
+}
+
+.contactEmail{
+
+    text-decoration:none;
+background: linear-gradient(90deg,  #64c2df, #43a6be, #21b5da);
+border-radius: 70px;
+color: white;
+font-weight:500;
+padding: 14px 24px;
+font-family: "Lato";
+box-shadow: 0 0 4px 4px rgba(0,0,0,0.25);
+transition: all 0.3s ease;
+}
+.contactEmail:hover {
+    background: linear-gradient(90deg, #4da6c9, #3688be, #2382b9); /* Slightly change gradient on hover */
+    transform: translateY(-2px); /* Slight upward movement */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow slightly */
+  }
+.socialLinks{
+font-size: 27px;
+display: flex;
+list-style-type: none;
+justify-content: center;
+ 
+margin-bottom: 7px;
+padding: 0;
+gap: 20px;
+
+}
+
+.socialLinks li {
+    display: inline-block; /* Keeps the list items inline */
+    
+  }
+
+ 
+.icon {
+    color:rgb(248, 248, 248); 
+    font-size: 27px; 
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth color transition */
+   
+  }
+  .icon:hover{
+    transform: scale(1.2);
+    color: #64c2df;
+  }
+.heroImg{
+width: 20%;
+height: 20%;
+animation-name:floating;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes floating {
+    0%{
+        transform: translate (0,0px);
+    }
+    50%{
+        transform: translate(0,10px);
+
+    }
+    100%{
+        transform: translate(0,-0px);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        flex-direction: column; 
+        align-items: center;
+        text-align: center; 
+        padding: 60px 20px; 
+        margin: 0; 
+    }
+
+    .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 50px; 
+    }
+
+    .description {
+        text-align: center;
+        font-size: 18px; 
+        margin-bottom: 20px;
+    }
+
+    .contactEmail {
+        margin-top: 20px; 
+        text-align: center;
+    }
+
+    .socialLinks {
+        justify-content: center; 
+    }
+ 
+
+    .heroImg {
+        width: 40%;
+        height: auto; 
+        margin-top: 20px;
+    }
+}

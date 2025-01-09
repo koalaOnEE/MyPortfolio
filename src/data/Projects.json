@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Preorder System",
+      "imageSrc": "project1.jpeg",
+      "description": "Web app to preorder new upcoming BMW vehicles.",
+      "skills": ["React", "SQL", "Java"],
+      
+      "source": "https://github.com/koalaOnEE/CarPreorder.git"
+    },
+    {
+      "title": "Currency Converter",
+      "imageSrc": "project2.png",
+      "description": "Application that converts currency to current location's currency.",
+      "skills": ["React", "Java"],
+      "source": "https://github.com/koalaOnEE/CurrencyConv.git"
+    }
+  ]
