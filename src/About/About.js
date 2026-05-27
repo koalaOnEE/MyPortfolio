@@ -19,7 +19,7 @@ export const About = () => {
       
         <div className={styles.aboutContent}>
           <p>
-            Hi, my name is Chloe Lee and I'm from Virginia. I am currently a senior at Old Dominion University and am pursuing a Bachelor's in Computer Science with a minor in Data Science.
+            Hi, my name is Chloe Lee and I'm from Virginia. I graduated from Old Dominion University in Dec 2025 with a BS in Computer Science and minor in Data Science.
           </p>
           <p>
             Throughout my education, I have gained experience in backend development, while also building a solid foundation in frontend development. I am passionate about solving problems and creating efficient, scalable software solutions.
@@ -39,11 +39,11 @@ export const About = () => {
             <span>C++</span>
             <span>Java</span>
             <span>SQL</span>
-            <span>React</span>
+            <span>HTML/CSS/JS</span>
             <span>Linux</span>
         
             <span>Git</span>
-            <span>RestAPI</span>
+            <span>Python</span>
           </div>
         </div>
       </div>
