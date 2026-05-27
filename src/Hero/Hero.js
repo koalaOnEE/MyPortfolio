@@ -38,9 +38,9 @@ export const Hero = () => {
 
           <h1 className={styles.title}>Hi, I'm Chloe.</h1>
           <p className={styles.description}>
-            I'm an undergrad Computer Science student at Old Dominion University.
+            I'm a Computer Science graduate from Old Dominion University.
           </p>
-          <a href="mailto:clee030@odu.edu" className={styles.contactEmail}>
+          <a href="mailto:clee030@odu.edu?subject=Hello%20Chloe&body=Hi%20Chloe,%20I%20would%20like%20to%20connect%20with%20you." className={styles.contactEmail}>
             Get In Touch
           </a>
          
